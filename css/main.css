@@ -3,6 +3,7 @@ body{
   background-image: url(image/darksun.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #241b16;
 }
 h1{
   margin-left: 50px;
