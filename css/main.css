@@ -1,9 +1,14 @@
+
 body{
   font-family: 'Orbitron', sans-serif;
   background-image: url(image/darksun.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #281d1a;
+}
+.exercise{
+  max-width: 100%;
+  background-color: white;
 }
 ul{
   list-style-type: none;
