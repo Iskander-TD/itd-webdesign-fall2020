@@ -1,0 +1,36 @@
+body{
+  font-family: 'Orbitron', sans-serif;
+  background-image: url(image/darksun.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  margin-left: 50px;
+  color: orangered;
+  font-size: 70px
+
+
+
+}
+li{
+  margin-left: 34px;
+  color: darkorange;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+
+}
+a:link{
+  color: gold;
+
+
+}
+a:visited{
+  color: gold;
+
+}
+a:hover{
+  color: white;
+
+}
