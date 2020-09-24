@@ -7,9 +7,11 @@ body{
   background-color: #281d1a;
 }
 .exercise{
-  max-width: 100%;
   background-color: white;
   background-image: none;
+}
+img{
+  max-width: 100%;
 }
 ul{
   list-style-type: none;
