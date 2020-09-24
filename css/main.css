@@ -5,33 +5,28 @@ body{
   background-size: cover;
   background-color: #281d1a;
 }
+ul{
+  list-style-type: none;
+}
 h1{
   margin-left: 50px;
   color: orangered;
   font-size: 70px
-
-
-
 }
 li{
-  margin-left: 34px;
+  margin-left: 12px;
   color: darkorange;
   font-size: 20px;
 }
 a{
   text-decoration: none;
-
 }
 a:link{
   color: gold;
-
-
 }
 a:visited{
   color: gold;
-
 }
 a:hover{
   color: white;
-
 }
