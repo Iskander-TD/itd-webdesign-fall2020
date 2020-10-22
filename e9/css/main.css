@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+main {
+  width: 132vw;
+  margin: -50px -15vw;
+}
+#p1 .shape1 {
+  background-color: pink;
+  width: 200px;
+  height: 80px;
+  margin: -35px -65px;
+  float: left;
+  opacity: 55%;
+  border: 5px solid black;
+}
+#p1 .shape2 {
+  background-color: yellow;
+  width: 200px;
+  height: 100px;
+  margin: -25px -55px;
+  float: left;
+  opacity: 75%;
+  transform: rotate(30deg);
+  border: 8px dotted gray;
+}
+#p1 .shape3 {
+  background-color: #112088;
+  width: 250px;
+  height: 110px;
+  margin: -35px -55px;
+  float: left;
+  opacity: 75%;
+  border: 5px solid gainsboro;
+}
+#p2 .shape1 {
+  background-color: blue;
+  width: 200px;
+  height: 110px;
+  margin: -50px -55px;
+  float: left;
+  opacity: 55%;
+  transform: rotate(30deg);
+
+}
+#p2 .shape2 {
+  background-color: midnightblue;
+  width: 200px;
+  height: 110px;
+  margin: -50px -55px;
+  float: left;
+  opacity: 75%;
+  transform: rotate(30deg);
+
+}
+#p2 .shape3 {
+  background-color: brown;
+  width: 200px;
+  height: 110px;
+  margin: -50px -55px;
+  float: left;
+  opacity: 95%;
+  transform: rotate(30deg);
+}
+#p3 .shape1 {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 110px solid dodgerblue;
+  float: left;
+  margin: -0 -30px
+}
+#p3 .shape2 {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 110px solid blue;
+  float: left;
+  margin: -0 -30px
+}
+#p3 .shape3 {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 110px solid orange;
+  float: left;
+  margin: -0 -30px
+}
+#p3 .shape4 {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 110px solid orangered;
+  float: left;
+  margin: -0 -30px
+}
+#p4 .shape1 {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  box-shadow: 25px 25px 0 0 #001a33;
+  float: left;
+  margin: -110px -80px
+}
+#p4 .shape2 {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  box-shadow: 35px 35px 0 0 #003566;
+  float: left;
+  margin: -110px -80px
+}
+#p4 .shape3 {
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  background: #004f99;
+  opacity: 50%;
+  float: left;
+  margin: -50px -50px;
+}
+#p4 .shape4 {
+  width: 200px;
+  height: 200px;
+  background: #0069cc;
+  border-radius: 50%;
+  opacity: 50%;
+  float: left;
+  margin: -90px -90px
+}
+#p5 .shape1 {
+  width: 200px;
+  height: 100px;
+  background: #52d4d9;
+  border-radius: 100px / 50px;
+  float: left;
+  margin: -21px -55px
+}
+#p5 .shape2 {
+  width: 200px;
+  height: 100px;
+  background: #70dbb2;
+  border-radius: 100px / 50px;
+  float: left;
+  margin: -21px -55px
+}
+#p5 .shape3 {
+  width: 200px;
+  height: 100px;
+  background: #b8ed59;
+  border-radius: 100px / 50px;
+  float: left;
+  margin: -21px -55px
+}
+#p5 .shape4 {
+  width: 200px;
+  height: 100px;
+  background: #f5fc0d;
+  border-radius: 100px / 50px;
+  float: left;
+  margin: -21px -55px
