@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.board {
+  width: 800px;
+  margin: 50px auto 0;
+}
+.red, .black {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.red{
+  background-color: firebrick;
+}
+.black{
+  background-color: #232323;
+}
