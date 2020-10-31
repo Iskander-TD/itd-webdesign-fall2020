@@ -1,7 +1,7 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+body {
   margin: 0;
 }
 .board {
@@ -13,9 +13,86 @@ body{
   height: 100px;
   float: left;
 }
-.red{
+.red {
   background-color: firebrick;
 }
-.black{
+.black {
   background-color: #232323;
+}
+
+/* columns */
+
+header {
+  width: 950px;
+  height: 100px;
+  background-color: firebrick;
+  margin: 25px auto;
+}
+.sub {
+  width: 950px;
+  height: 20px;
+  background-color: firebrick;
+  margin: 0 auto;
+}
+main {
+  width: 950px;
+  height: 650px;
+  margin: 25px auto;
+  display: flow-root;
+}
+.column {
+  width: 300px;
+  height: 650px;
+  float: left;
+
+  background-color: firebrick;
+}
+.centercol {
+  width: 300px;
+  height: 650px;
+  float: left;
+  margin: 0 25px;
+  background-color: firebrick;
+}
+footer {
+  width: 950px;
+  height: 100px;
+  background-color: firebrick;
+  margin: 0 auto;
+}
+#col {
+  margin: 25px auto;
+  display: flow-root;
+}
+
+/* blog */
+
+main {
+  width: 950px;
+  margin: 0 auto;
+}
+.body {
+  width: 950px;
+  margin: 0 0 25px;
+  display: flow-root;
+}
+.filler {
+  background-color: firebrick;
+  width: 800px;
+  height: 400px;
+  float: left;
+}
+.smallbox {
+  background-color: firebrick;
+  width: 135px;
+  height: 175px;
+  margin-left: 15px;
+  float: left;
+}
+.underbar {
+  background-color: firebrick;
+  width: 800px;
+  height: 75px;
+  margin: 15px 0 25px;
+  float: left;
 }
