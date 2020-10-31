@@ -64,6 +64,12 @@ footer {
   margin: 25px auto;
   display: flow-root;
 }
+#column-main {
+  width: 950px;
+  height: 650px;
+  margin: 25px auto;
+  display: flow-root;
+}
 
 /* blog */
 
