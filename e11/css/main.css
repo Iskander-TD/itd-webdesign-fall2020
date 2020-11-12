@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: green;
+  color: #fffff5;
+}
+h1 {
+  position: absolute;
+  font-style: sans-serif;
+  color: #1a1a1a;
+  font-size: 60px;
+  left: 10px;
+  top: -35px;
+}
+#flipped {
+  transform: rotate(180deg);
+  left: 260px;
+  top: 360px;
+}
+#snarkycomment {
+  position: fixed;
+  margin: 700px auto;
+}
+.cards {
+  position: relative;
+  margin: 100px auto;
+}
+.backcard {
+  width: 300px;
+  height: 470px;
+  background-color: #fffff5;
+  position: absolute;
+  left: 750px;
+  border-radius: 15px;
+}
+.bcred {
+  width: 280px;
+  height: 450px;
+  background-color: tomato;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 10px;
+}
+.redframe {
+  width: 260px;
+  height: 430px;
+  border: 2px solid #fffff5;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border-radius: 10px;
+}
+.frontcard {
+  width: 300px;
+  height: 470px;
+  background-color: #fffff5;
+  position: absolute;
+  left: 800px;
+  top: 50px;
+  border-radius: 15px;
+}
+.l-topclub {
+  position: relative;
+  left: 45px;
+  top: 70px;
+}
+.r-topclub {
+  position: absolute;
+  left: 180px;
+  top: 70px;
+}
+.l-circ {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 4px;
+  background: #1a1a1a;
+  border-radius: 50%
+}
+.t-circ {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 22px;
+  top: -25px;
+  background: #1a1a1a;
+  border-radius: 50%
+}
+.r-circ {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 40px;
+  background: #1a1a1a;
+  border-radius: 50%
+}
+.stem {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 31px;
+  top: -12px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 60px solid #1a1a1a;
+}
+.l-botclub {
+  position: absolute;
+  left: 120px;
+  top: 390px;
+  transform: rotate(180deg);
+}
+.r-botclub {
+  position: absolute;
+  left: 255px;
+  top: 390px;
+  transform: rotate(180deg);
+}
