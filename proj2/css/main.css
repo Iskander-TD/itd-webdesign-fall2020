@@ -36,10 +36,10 @@ img {
   width: 33%;
   float: left;
 }
-.col2 {
+main {
   width: 33%;
-  float: right;
-
+  float: left;
+  margin: 350px 10px 50px 1200px;
 }
 @media screen and (max-width: 900px){
   .col{
