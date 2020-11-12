@@ -18,6 +18,9 @@ h1 {
 ul {
   color: white;
 }
+li {
+/* do i want the homepage to float left? or stack buttons like in my designs? */
+}
 a:link {
   color: white;
   text-decoration: none;
@@ -29,6 +32,7 @@ a:visited {
 }
 /* how do i do a top bar menu that turns into 3 mobile buttons?
  i really didn't think my designs through, huh */
+ /* turns out we're not doing hamburger buttons, so problem solved? */
 img {
   max-width: 100%;
 }
@@ -39,6 +43,7 @@ img {
 main {
   width: 33%;
   float: left;
+  display: flow-root;
   margin: 350px 10px 50px 1200px;
 }
 @media screen and (max-width: 900px){
@@ -50,5 +55,5 @@ main {
   }
 }
 .aboutpage {
-  
+
 }
