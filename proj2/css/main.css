@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  margin: 0 auto;
+  background-image: url(../images/cairo8.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-size: 150px;
+}
+ul {
+
+}
+img {
+  max-width: 100%;
+}
+.col {
+  width: 33%;
+  float: left;
+}
+.col2 {
+  width: 33%;
+  float: right;
+
+}
+@media screen and (max-width: 900px){
+  .col{
+    width: 100%;
+  }
+  h1 {
+    font-size: 60px;
+  }
+}
