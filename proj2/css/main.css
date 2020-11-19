@@ -2,24 +2,65 @@
   box-sizing: border-box;
 }
 body {
-  height: 100%;
-  margin: 0 auto;
-  background-image: url(../images/cairo8.jpg);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  margin: 0;
+}
+header {
+  float: left;
+  margin-left: 25px;
+}
+nav {
+  float: right;
+  margin-top: 40px;
+}
+main {
+  display: flow-root;
+}
+/* footer {
+  padding: 0;
+} */
+.footerimg {
+  background: url(../images/cairo10.jpg) no-repeat center bottom;
   background-size: cover;
+  display: flow-root;
+  /* opacity: 69%; */
+}
+.blackbg {
+  background-color: black;
+}
+footer p {
+  text-align: center;
+  padding: 0;
   color: white;
+  font-size: 50px;
+  font-style: italic;
+  float: center;
+  /* opacity: 100%; */
+}
+.botright {
+  margin: -300px 80px 25px 66%;
+  text-align: center;
+}
+.botright p {
+  color: white;
+  font-size: 18px;
+  float: right;
+}
+p {
+  color: black;
 }
 h1 {
-  font-size: 150px;
+  font-size: 120px;
   color: white;
+  margin: 0;
 }
 ul {
+  padding: 0;
   color: white;
+  list-style-type: none;
 }
 li {
-/* do i want the homepage to float left? or stack buttons like in my designs? */
+  float: left;
+  margin-left: 25px;
 }
 a:link {
   color: white;
@@ -27,33 +68,107 @@ a:link {
 }
 a:visited {
   text-decoration: none;
-  color: black;
-  opacity: 66%;
+  color: white;
 }
-/* how do i do a top bar menu that turns into 3 mobile buttons?
- i really didn't think my designs through, huh */
- /* turns out we're not doing hamburger buttons, so problem solved? */
-img {
-  max-width: 100%;
+a:hover {
+  color: white;
+  text-decoration: underline;
 }
-.cairo {
-  width: 33%;
-  float: left;
+ h1 a:hover{
+  color: white;
+  text-decoration: none;
 }
-main {
-  width: 33%;
+.bgimg {
+  background: url(../images/cairo8.jpg) no-repeat center center;
+  background-size: cover;
+  display: flow-root;
+  padding: 25px 25px 800px;
+}
+.camelimg {
+  background: url(../images/cairo5.jpg) no-repeat center center;
+  background-size: cover;
+  display: flow-root;
+  padding: 25px 25px 650px;
+}
+.onpage {
+  color: white;
+  text-decoration: overline;
+}
+.columns {
+  display: flow-root;
+  width: 80vw;
+  margin: 20px auto;
+}
+.col {
+  width: 50%;
   float: left;
   display: flow-root;
-  margin: 350px 10px 50px 1200px;
 }
-@media screen and (max-width: 900px){
-  .col{
+.col img {
+  width: 100%;
+  float: left;
+}
+.col p {
+  padding: 20px;
+  margin: 15px 100px 0;
+}
+h2 {
+  padding: 0 20px;
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+  color: #990000;
+}
+@media only screen and (max-width: 1000px){
+  .botright {
+    margin: 0;
+    float: left;
+    padding: 20px 25px;
+  }
+  .botright p {
+    color: black;
+  }
+  .col {
     width: 100%;
   }
-  h1 {
-    font-size: 60px;
+  .col p {
+    padding: 20px;
+    margin: 15px 0 0;
+  }
+  .col img {
+    margin: 0;
+  }
+  .footerimg {
+    width: 100%;
+  }
+  footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    width: 90%;
+  }
+  footer {
+    padding: 0;
+    margin: 0;
   }
 }
-.aboutpage {
-
+@media only screen and (max-width: 810px){
+  nav {
+    margin-top: 0;
+  }
+  .columns {
+    width: 100%;
+  }
+  .footerimg {
+    width: 100%;
+  }
+  footer p {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  footer {
+    padding: 0;
+    margin: 0;
+  }
 }
