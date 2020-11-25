@@ -22,6 +22,8 @@ main {
   background: url(../images/cairo10.jpg) no-repeat center bottom;
   background-size: cover;
   display: flow-root;
+  background-color: #bbbbbb;
+  background-blend-mode: multiply;
   /* opacity: 69%; */
 }
 .blackbg {
@@ -103,14 +105,21 @@ a:hover {
   width: 50%;
   float: left;
   display: flow-root;
+  padding: 20px;
+}
+.b-col {
+  background: url(../images/cairo13.jpg) no-repeat bottom center;
+  background-size: cover;
+  display: flow-root;
+  height: 500px;
 }
 .col img {
   width: 100%;
   float: left;
 }
 .col p {
-  padding: 20px;
-  margin: 15px 100px 0;
+  /* padding: 20px;
+  margin: 15px 100px 0; */
 }
 h2 {
   padding: 0 20px;
