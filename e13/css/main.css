@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: green;
+  color: #fffff5;
+}
+h1 {
+  position: absolute;
+  font-style: sans-serif;
+  color: #1a1a1a;
+  font-size: 60px;
+  left: 10px;
+  top: -35px;
+  animation-duration: 3s;
+  animation-name: redani;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#flipped {
+  transform: rotate(180deg);
+  left: 260px;
+  top: 360px;
+}
+#snarkycomment {
+  position: fixed;
+  margin: 700px auto;
+}
+#snarkycomment2 {
+  position: fixed;
+  margin: 700px auto;
+  opacity: 0;
+  animation-duration: 3s;
+  animation-name: newtext2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.cards {
+  position: relative;
+  margin: 100px auto;
+}
+.backcard {
+  width: 300px;
+  height: 470px;
+  background-color: #fffff5;
+  position: absolute;
+  left: 750px;
+  border-radius: 15px;
+}
+.bcred {
+  width: 280px;
+  height: 450px;
+  background-color: tomato;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 10px;
+}
+.redframe {
+  width: 260px;
+  height: 430px;
+  border: 2px solid #fffff5;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border-radius: 10px;
+}
+.frontcard {
+  width: 300px;
+  height: 470px;
+  background-color: #fffff5;
+  position: absolute;
+  left: 800px;
+  top: 50px;
+  border-radius: 15px;
+}
+.l-topclub {
+  position: relative;
+  left: 45px;
+  top: 70px;
+}
+.r-topclub {
+  position: absolute;
+  left: 180px;
+  top: 70px;
+}
+.l-circ {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 4px;
+  background: #1a1a1a;
+  border-radius: 50%
+}
+.t-circ {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 22px;
+  top: -25px;
+  background: #1a1a1a;
+  border-radius: 50%
+}
+.r-circ {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 40px;
+  background: #1a1a1a;
+  border-radius: 50%
+}
+.stem {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 31px;
+  top: -12px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 60px solid #1a1a1a;
+}
+.l-botclub {
+  position: absolute;
+  left: 120px;
+  top: 390px;
+  transform: rotate(180deg);
+}
+.r-botclub {
+  position: absolute;
+  left: 255px;
+  top: 390px;
+  transform: rotate(180deg);
+}
+.l-topclub, .r-topclub, .l-botclub, .r-botclub {
+  animation-duration: 3s;
+  animation-name: diamond1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.l-topdia {
+  position: absolute;
+  left: 59px;
+  top: 17px;
+}
+.r-topdia {
+  position: absolute;
+  left: 194px;
+  top: 17px;
+}
+.l-botdia {
+  position: absolute;
+  left: 56px;
+  top: 313px;
+}
+.r-botdia {
+  position: absolute;
+  left: 191px;
+  top: 313px;
+}
+.dia {
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-bottom: 40px solid red;
+  position: relative;
+}
+.dia2 {
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-top: 40px solid red;
+  position: relative;
+}
+.l-topdia, .r-topdia, .l-botdia, .r-botdia {
+  animation-duration: 3s;
+  animation-name: diamond2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+p {
+  animation-duration: 3s;
+  animation-name: newtext1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes redani {
+  from {
+    color: #1a1a1a;
+  }
+  to {
+    color: red;
+  }
+}
+@keyframes diamond1 {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes diamond2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@keyframes newtext1 {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes newtext2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
